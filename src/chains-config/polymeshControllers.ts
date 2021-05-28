@@ -23,8 +23,10 @@ import { initLRUCache, QueryFeeDetailsCache } from './cache';
 export const polymeshControllers: ControllerConfig = {
 	controllers: [
 		'AccountsBalanceInfo',
+		'AccountsCddInfo',
 		'AccountsCompare',
 		'AccountsConvert',
+		'AccountsPendingAuthorizations',
 		'AccountsStakingInfo',
 		'AccountsStakingPayouts',
 		'AccountsValidate',
